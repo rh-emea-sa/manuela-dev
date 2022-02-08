@@ -244,10 +244,12 @@
             "filename": "push-model.ipynb",
             "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
             "env_vars": [
-              "S3_ENDPOINT_URL=",
+              "S3_ENDPOINT_URL=http://s3.openshift-storage.svc.cluster.local/",
               "S3_ACCESS_KEY=",
               "S3_SECRET_KEY=",
-              "OPS_REPOSITORY_URL="
+              "OPS_REPO_LOCATION=",
+              "GIT_USER=",
+              "GIT_PASSWORD="
             ],
             "include_subdirectories": false,
             "invalidNodeError": null,
