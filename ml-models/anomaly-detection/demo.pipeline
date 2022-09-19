@@ -14,7 +14,7 @@
           "op": "execute-notebook-node",
           "app_data": {
             "filename": "preprocessing.ipynb",
-            "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
+            "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
             "env_vars": [],
             "include_subdirectories": false,
             "outputs": [
@@ -67,7 +67,7 @@
           "op": "execute-notebook-node",
           "app_data": {
             "filename": "feature_extraction.ipynb",
-            "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
+            "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
             "env_vars": [],
             "include_subdirectories": false,
             "invalidNodeError": null,
@@ -126,7 +126,7 @@
           "op": "execute-notebook-node",
           "app_data": {
             "filename": "training.ipynb",
-            "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
+            "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
             "env_vars": [],
             "include_subdirectories": false,
             "invalidNodeError": null,
@@ -184,7 +184,7 @@
           "op": "execute-notebook-node",
           "app_data": {
             "filename": "verification.ipynb",
-            "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
+            "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
             "env_vars": [
               "MODEL_FILE=model.joblib"
             ],
@@ -242,7 +242,7 @@
           "op": "execute-notebook-node",
           "app_data": {
             "filename": "push-model.ipynb",
-            "runtime_image": "quay.io/thoth-station/s2i-generic-data-science-notebook",
+            "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
             "env_vars": [
               "S3_ENDPOINT_URL=http://s3.openshift-storage.svc.cluster.local/",
               "S3_ACCESS_KEY=",
