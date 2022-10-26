@@ -15,7 +15,7 @@
           "app_data": {
             "component_parameters": {
               "filename": "preprocessing.ipynb",
-              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
+              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v1.0.0",
               "env_vars": [],
               "include_subdirectories": false,
               "outputs": [
@@ -70,7 +70,7 @@
           "app_data": {
             "component_parameters": {
               "filename": "feature_extraction.ipynb",
-              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
+              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v1.0.0",
               "env_vars": [],
               "include_subdirectories": false,
               "outputs": [
@@ -131,7 +131,7 @@
           "app_data": {
             "component_parameters": {
               "filename": "training.ipynb",
-              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
+              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v1.0.0",
               "env_vars": [],
               "include_subdirectories": false,
               "outputs": [
@@ -191,7 +191,7 @@
           "app_data": {
             "component_parameters": {
               "filename": "verification.ipynb",
-              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
+              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v1.0.0",
               "env_vars": [
                 "MODEL_FILE=model.joblib"
               ],
@@ -251,7 +251,7 @@
           "app_data": {
             "component_parameters": {
               "filename": "push-model.ipynb",
-              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v0.13.0",
+              "runtime_image": "quay.io/mmurakam/industrial-edge-ml-pipeline-image:v1.0.0",
               "env_vars": [
                 "S3_ENDPOINT_URL=http://s3.openshift-storage.svc.cluster.local/",
                 "S3_ACCESS_KEY=",
